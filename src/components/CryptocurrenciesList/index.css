@@ -1,0 +1,110 @@
+/* Write your CSS code here */
+.crypto-list-main-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 0 1%;
+  margin: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .crypto-list-main-container {
+    padding: 6% 1%;
+    justify-content: center;
+  }
+}
+
+.crypto-list-heading {
+  color: #00e7ff;
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .crypto-list-heading {
+    font-size: 44px;
+  }
+}
+
+.crypto-list-image {
+  width: 98%;
+  margin: 5px;
+  padding: 1px;
+}
+
+.ul-container {
+  border: 3px solid #00e7ff;
+  border-radius: 5px;
+  width: 96%;
+  list-style-type: none;
+  padding: 0 0 15px 0;
+  background-size: cover;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .ul-container {
+    width: 90%;
+    padding: 0 0 20px 0;
+  }
+}
+
+.li-table-head-container {
+  width: 100%;
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 20px;
+  margin: 0 0 15px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .li-table-head-container {
+    padding: 12px 20px 12px 40px;
+    margin: 0 0 20px 0;
+  }
+}
+
+.usd-and-euro-card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .usd-and-euro-card {
+    width: 30%;
+  }
+}
+
+.coin-type-container {
+  width: 50%;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .coin-type-container {
+    width: 70%;
+  }
+}
+
+.crypto-list-para {
+  color: white;
+  margin: 0 0 0 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .crypto-list-para {
+    font-size: 22px;
+    margin: 0 0 0 15px;
+  }
+}
+
+.para {
+  align-self: flex-end;
+}
